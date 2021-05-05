@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project_1</title>
+    <link rel="stylesheet" href="./Project_1_files/style.css">
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+         <div class="contactInfo">
+             <div><h2>Contact Info</h2>
+            <ul class="info">
+             <li>
+                 <span><img src="./Project_1_files/location.png"></span>
+                 <span> 2021 Sejong University Road <br>Seoul , SK 10017</span> 
+             </li>
+             <li>
+                 <span><img src="./Project_1_files/mail.png"></span>
+                 <span>abr0r99@mail.com</span>
+             </li>
+             <li>
+                <span><img src="./Project_1_files/call.png"></span>
+                <span>010 5617 3172</span>
+            </li>
+            </ul>
+            </div>
+             <ul class="sci">
+                 <li><a href="http://127.0.0.1:5500/index.html#"><img src="./Project_1_files/1.png"></a></li>
+                 <li><a href="http://127.0.0.1:5500/index.html#"><img src="./Project_1_files/2.png"></a></li>
+                 <li><a href="http://127.0.0.1:5500/index.html#"><img src="./Project_1_files/3.png"></a></li>
+                 <li><a href="http://127.0.0.1:5500/index.html#"><img src="./Project_1_files/4.png"></a></li>
+                 <li><a href="http://127.0.0.1:5500/index.html#"><img src="./Project_1_files/5.png"></a></li>
+             </ul>
+            </div>
+         
+            <div class="contactForm">
+            <h2>Send a Message</h2>
+            <div class="formBox">
+             <div class="inputBox w50">
+               <input type="text" required="">
+               <span>First Name</span>
+             </div>
+             <div class="inputBox w50">
+                <input type="text" required="">
+                <span>Last Name</span>
+             </div>
+             <div class="inputBox w50">
+                <input type="email" required="">
+                <span>Email Address</span>
+             </div>
+             <div class="inputBox w50">
+                <input type="text" required="">
+                <span>Mobile Number</span>
+             </div>
+             <div class="inputBox w100">
+                <textarea required=""></textarea>
+                <span>Write your message here...</span>
+             </div>
+             <div class="inputBox w100">
+               <input type="submit" value="Send">
+             </div>
+           </div>
+         </div>   
+        </div>
+    </section>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body><div id="screen-shader" style="            transition: opacity 0.1s ease 0s;             z-index: 2147483647;            margin: 0;             border-radius: 0;             padding: 0;             background: #939393 !important;             pointer-events: none;             position: fixed;             top: -10%;             right: -10%;             width: 120%;             height: 120%;             opacity: 0.5760;            mix-blend-mode: multiply;             display: none;        "></div></html>
